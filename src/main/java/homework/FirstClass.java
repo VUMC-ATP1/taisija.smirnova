@@ -5,8 +5,8 @@ public class FirstClass {
     public static void main(String[] args) {
 
         //Valsts
-        String CountryName = "Spain";
-        System.out.println(CountryName);
+        String countryName = "Spain";
+        System.out.println(countryName);
 
         //Iedzivotaju skaits
 
@@ -14,8 +14,8 @@ public class FirstClass {
         System.out.printf("Country Population %d people\n", countryPopulation);
 
         //Galvaspilseta
-        String CountryCapital = "Madrid";
-        System.out.println(CountryCapital);
+        String countryCapital = "Madrid";
+        System.out.println(countryCapital);
 
         //platiba
 
@@ -23,16 +23,16 @@ public class FirstClass {
         System.out.printf("Country Area: %d\n", countryArea);
 
         //valoda
-        String CountryLanguage = "Spanish";
-        System.out.println(CountryLanguage);
+        String countryLanguage = "Spanish";
+        System.out.println(countryLanguage);
 
         //Vai ir ES
         boolean CountryInEuropeanUnion = true;
         System.out.println(CountryInEuropeanUnion);
 
         //valuta
-        char CountryCurrency = '€';
-        System.out.println(CountryCurrency);
+        char countryCurrency = '€';
+        System.out.println(countryCurrency);
 
         //3 piemeri
 
@@ -56,9 +56,6 @@ public class FirstClass {
         y = 7;
         System.out.println(x); // cik ir "x"?
 
-
-
     }
-
 
 }
