@@ -16,7 +16,7 @@ public class HomeWorkTwo {
         System.out.println(result);
         ///d
         int m = 7;
-        boolean result1 = m > 5 && m < 10;
+        boolean result1 = !(m <= 5 && m < 10);
         System.out.println(result1);
         ///e
         int n = 4;
@@ -30,71 +30,75 @@ public class HomeWorkTwo {
         System.out.println(result3);
 
         ///2
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a month number");
         int monthNumber = scanner.nextInt();
         switch (monthNumber) {
             case 1:
-                System.out.printf("January");
+                System.out.println("January");
                 break;
             case 2:
-                System.out.printf("February");
+                System.out.println("February");
                 break;
             case 3:
-                System.out.printf("March");
+                System.out.println("March");
                 break;
             case 4:
-                System.out.printf("April");
+                System.out.println("April");
                 break;
             case 5:
-                System.out.printf("May");
+                System.out.println("May");
                 break;
             case 6:
-                System.out.printf("June");
+                System.out.println("June");
                 break;
             case 7:
-                System.out.printf("July");
+                System.out.println("July");
                 break;
             case 8:
-                System.out.printf("August");
+                System.out.println("August");
                 break;
             case 9:
-                System.out.printf("September");
+                System.out.println("September");
                 break;
             case 10:
-                System.out.printf("October");
+                System.out.println("October");
                 break;
             case 11:
-                System.out.printf("November");
+                System.out.println("November");
                 break;
             case 12:
-                System.out.printf("December");
+                System.out.println("December");
+                break;
+            default:
+                System.out.println("Incorrect value.The number of month can be from 1 to 12");
+        }
 
 
-                ///3
+        ///3
 
-                System.out.println("Enter 1 number");
-                int number1 = scanner.nextInt();
-                System.out.println("Enter 2 number");
-                int number2 = scanner.nextInt();
-                System.out.println("Enter 3 number");
-                int number3 = scanner.nextInt();
-                System.out.println(Math.max(Math.max(number1, number2), number3));
+        System.out.println("Enter 1 number");
+        int number1 = scanner.nextInt();
+        System.out.println("Enter 2 number");
+        int number2 = scanner.nextInt();
+        System.out.println("Enter 3 number");
+        int number3 = scanner.nextInt();
+        System.out.println(Math.max(Math.max(number1, number2), number3));
 
-                ///4
+        ///4
 
-                System.out.println("Ievadiet luksafora krasu");
-                String krasa = scanner.next();
-                if (krasa.equalsIgnoreCase("sarkana")) {
-                    System.out.println("Nedrikst iet");
-                } else if (krasa.equalsIgnoreCase("dzeltena")) {
-                    System.out.println("Gaidi");
-                } else if (krasa.equalsIgnoreCase("zala")) {
-                    System.out.println("Var iet");
+        System.out.println("Ievadiet luksafora krasu");
+        String krasa = scanner.next();
+        if (krasa.equalsIgnoreCase("sarkana")) {
+            System.out.println("Nedrikst iet");
+        } else if (krasa.equalsIgnoreCase("dzeltena")) {
+            System.out.println("Gaidi");
+        } else if (krasa.equalsIgnoreCase("zala")) {
+            System.out.println("Var iet");
 
-                }
         }
     }
+        }
 
-}
+
+
